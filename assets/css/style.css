@@ -1363,6 +1363,7 @@ input[type="submit"]:hover {
 .footer-top {
     padding: 90px 0 45px;
     width: 100%;
+    background-color: #fafafa;
 }
 
 .footer-logo {
@@ -1374,11 +1375,12 @@ input[type="submit"]:hover {
 }
 
 .timing-list li {
-    display: block;
+    display: inline-block;
     font-size: 15px;
     color: #000000;
     padding: 4px 0;
     margin: 0;
+    margin-right: 10px;
 }
 
 .timing-list li:before {
@@ -3740,4 +3742,14 @@ button:focus {
         font-size: 9px;
         margin-left: 4px;
     }
+}
+.timing-list{
+    display: flex;
+}
+
+.copyRights{
+    border-top:1px solid #2c32be;
+    padding:20px 0;
+    margin-top:20px;
+    text-align:center;
 }
