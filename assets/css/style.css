@@ -546,7 +546,7 @@ input[type="submit"]:hover {
     position: fixed;
     bottom: 60px;
     right: 20px;
-    background: url(images/up-arrow.png) center no-repeat #2c32be;
+    background:  center no-repeat #2c32be;
     background-size: 25px;
     width: 52px;
     height: 52px;
@@ -560,8 +560,13 @@ input[type="submit"]:hover {
     -ms-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
+    color:white;
+    display: flex;
+    justify-content: center;
 }
-
+#return-to-top i{
+    align-self: center;
+}
 #return-to-top:hover {
     background: url(images/up-arrow.png) center no-repeat #000;
     background-size: 25px;
