@@ -663,6 +663,7 @@ input[type="submit"]:hover {
 .top-btngroup {
     display: flex;
     justify-content: flex-end;
+    display: none;
 }
 
 .top-btngroup .btn-show {
