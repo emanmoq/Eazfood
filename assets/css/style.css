@@ -546,7 +546,7 @@ input[type="submit"]:hover {
     position: fixed;
     bottom: 60px;
     right: 20px;
-    background:  center no-repeat #2c32be;
+    background: center no-repeat #2c32be;
     background-size: 25px;
     width: 52px;
     height: 52px;
@@ -560,13 +560,15 @@ input[type="submit"]:hover {
     -ms-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
-    color:white;
+    color: white;
     display: flex;
     justify-content: center;
 }
-#return-to-top i{
+
+#return-to-top i {
     align-self: center;
 }
+
 #return-to-top:hover {
     background: url(images/up-arrow.png) center no-repeat #000;
     background-size: 25px;
@@ -1482,9 +1484,11 @@ input[type="submit"]:hover {
     position: relative;
     vertical-align: middle;
 }
-.terms-inner-info{
+
+.terms-inner-info {
     width: 100%;
 }
+
 .innerbanner {
     width: 100%;
     position: relative;
@@ -3746,18 +3750,30 @@ button:focus {
         margin-left: 4px;
     }
 }
-.timing-list{
+
+.timing-list {
     display: flex;
 }
 
-.copyRights{
-    border-top:1px solid #2c32be;
-    padding:20px 0;
-    margin-top:20px;
-    text-align:center;
-}
-.terms-Box{
+.terms-Box {
     max-height: 600px;
     overflow: hidden;
-    overflow-y:scroll;
+    overflow-y: scroll;
+    margin-top:20px;
+    padding:20px;
+    border-radius: 8px;
+
+}
+
+.terms-Box::-webkit-scrollbar {
+    width: 10px;
+ 
+}
+
+
+
+.terms-Box::-webkit-scrollbar-thumb {
+    background-color: #2c32be;
+    border-radius: 6px;
+    overflow: hidden;
 }
